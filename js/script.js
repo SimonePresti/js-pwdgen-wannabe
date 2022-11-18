@@ -1,13 +1,17 @@
-let nome = prompt ('inserisci il nome');
+let nome = prompt ('Inserisci il nome');
 
-let cognome = prompt ('inserisci il cognome');
+let cognome = prompt ('Inserisci il cognome');
 
-let colorePreferito = prompt ('inserisci il colore preferito');
+let colorePreferito = prompt ('Inserisci il colore preferito');
 
-const numero = Number (22);
+let yearOfBirth = prompt ('In che hanno sei nato?');
 
-let datiLogin = nome + cognome + colorePreferito + numero;
+const actualYear = 2022;
 
-console.log (nome, cognome, colorePreferito, numero );
+let età = actualYear - yearOfBirth;
+
+let datiLogin = nome + cognome  + colorePreferito + età;
+
+console.log (nome, cognome, colorePreferito + età);
 
 document.getElementById ('output').innerHTML = datiLogin;
