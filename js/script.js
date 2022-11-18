@@ -8,6 +8,6 @@ const numero = Number (22);
 
 let datiLogin = nome + cognome + colorePreferito + numero;
 
-console.log (nome, cognome, colorePreferito );
+console.log (nome, cognome, colorePreferito, numero );
 
 document.getElementById ('output').innerHTML = datiLogin;
