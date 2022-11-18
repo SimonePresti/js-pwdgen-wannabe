@@ -1,7 +1,13 @@
-const inserisciNome = prompt ('inserisci il nome');
+let nome = prompt ('inserisci il nome');
 
-const inserisciCognome = prompt ('inserisci il cognome');
+let cognome = prompt ('inserisci il cognome');
 
-const inserisciColorePreferito = prompt ('inserisci il colore preferito');
+let colorePreferito = prompt ('inserisci il colore preferito');
 
-console.log (inserisciNome, inserisciCognome, inserisciColorePreferito );
+const numero = Number (22);
+
+let datiLogin = nome + cognome + colorePreferito + numero;
+
+console.log (nome, cognome, colorePreferito );
+
+document.getElementById ('output').innerHTML = datiLogin;
